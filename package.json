@@ -1,0 +1,26 @@
+{
+  "name": "idp-github",
+  "version": "0.1.0",
+  "description": "OAuth2 Github Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/connrs/node-idp-github.git"
+  },
+  "keywords": [
+    "oauth2",
+    "github"
+  ],
+  "author": "connrs",
+  "license": "BSD-3",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "dependencies": {
+    "oauth": "~0.9.10",
+    "xtend": "~2.0.6"
+  }
+}
