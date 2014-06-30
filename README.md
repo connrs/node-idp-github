@@ -2,7 +2,7 @@
 
 Github authentication.
 
-    var idpGithub = require('idp-github')({ clientID: '1234', clientSecret: 'secret', 'redirectUri': 'http://example.org' });
+    var idpGithub = require('idp-github')({ clientId: '1234', clientSecret: 'secret', 'redirectUri': 'http://example.org' });
 
     // Get the auth URL to redirect the user for OAuth2 login
     idpGithub.authUrl({ state: 'session_id' });
